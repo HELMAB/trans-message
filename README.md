@@ -14,24 +14,24 @@ Register `TransMessageServiceProvider` class into `config/app.php`
 
 ```php
 <?php
-    return [
-         
-        /*
-         * Package Service Providers...
-         */
-        Helmab\TransMessage\TransMessageServiceProvider::class,
-    ];
+return [
+     
+    /*
+     * Package Service Providers...
+     */
+    Helmab\TransMessage\TransMessageServiceProvider::class,
+];
 ```
 
 ## Usage
 
-```shell script
+```
 php artisan helmab:trans-message "I love Laravel Framework" en ko
 ```
 
-or 
+To get message error format, please add ```error``` argument at the end
 
-```shell script
+```
 php artisan helmab:trans-message "I love Laravel Framework" en ko error
 ```
 
