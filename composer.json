@@ -11,5 +11,11 @@
             "name": "HEL Mab",
             "email": "mabhelitc@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Helmab\\TransMessage\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
