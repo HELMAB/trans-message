@@ -2,6 +2,7 @@
 
 namespace Helmab\TransMessage;
 
+use Helmab\TransMessage\Commands\TransMessageCommand;
 use Illuminate\Support\ServiceProvider;
 
 class TransMessageServiceProvider extends ServiceProvider

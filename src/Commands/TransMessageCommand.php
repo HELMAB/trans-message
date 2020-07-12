@@ -1,6 +1,6 @@
 <?php
 
-namespace Helmab\TransMessage;
+namespace Helmab\TransMessage\Commands;
 
 use Illuminate\Console\Command;
 
