@@ -1,3 +1,5 @@
+![Trans-Message](./assets/img/header.png)
+
 Google Translation Message
 --------------------------
 A simple translate laravel command.
@@ -6,6 +8,31 @@ A simple translate laravel command.
 
 ```
 composer require helmab/trans-message
+```
+
+Register `TransMessageServiceProvider` class into `config/app.php`
+
+```php
+<?php
+    return [
+         
+        /*
+         * Package Service Providers...
+         */
+        Helmab\TransMessage\TransMessageServiceProvider::class,
+    ];
+```
+
+## Usage
+
+```shell script
+php artisan helmab:trans-message "I love Laravel Framework" en ko
+```
+
+or 
+
+```shell script
+php artisan helmab:trans-message "I love Laravel Framework" en ko error
 ```
 
 ## Credit
