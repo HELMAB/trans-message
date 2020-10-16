@@ -4,6 +4,8 @@ Google Translation Message
 --------------------------
 A simple translate laravel command.
 
+[![Latest Stable Version](https://poser.pugx.org/helmab/trans-message/v)](//packagist.org/packages/helmab/trans-message) [![Total Downloads](https://poser.pugx.org/helmab/trans-message/downloads)](//packagist.org/packages/helmab/trans-message) [![Latest Unstable Version](https://poser.pugx.org/helmab/trans-message/v/unstable)](//packagist.org/packages/helmab/trans-message) [![License](https://poser.pugx.org/helmab/trans-message/license)](//packagist.org/packages/helmab/trans-message)
+
 ## Installation
 
 ```
